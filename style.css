@@ -1,0 +1,241 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:sans-serif;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.medsos{
+    padding:5px 0;
+    background-color: #148F77;
+}
+.medsos ul li{
+    display:inline-block;
+    color: #fff;
+    margin-right:5px;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.container:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+header{
+    background-color: #fff;
+}
+header img{
+    float: left;
+    padding-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+}
+header h1{
+    float: left;
+    padding:15px 0;
+    color:#148F77;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+header ul{
+   float:right; 
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color:#148F77;
+    color:#fff
+}
+.active{
+    background-color:#148F77;
+    color:#fff;
+}
+.banner{
+   height: 70vh; 
+   background-image: url(banner.png);
+   background-size: cover;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner:after{
+    content:'';
+    display:block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(20,143,119, .6);
+}
+.banner h2{
+   color: #fff; 
+   z-index:1 ;
+   padding: 20px 25px;
+   border: 3px solid #fff;
+}
+section{
+    padding:50px 0;
+}
+section h3{
+    text-align:center;
+    padding: 20px 0;
+    color: #148F77;
+    margin-bottom: 15px ;
+}
+.about,
+.service{
+    padding-bottom: 50px;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    background-color: #fff;
+}
+.box{
+    color: #148F77;
+}
+.box:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    margin:0 auto;
+}
+.box .col-4 h5{
+    margin: 15px 0;
+}
+footer{
+    padding: 15px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.facilities{
+   height: 63vh; 
+   background-image: url(banner.png);
+   background-size: cover;
+   position: relative;
+   display: flex;
+   justify-content:center;
+   align-items: top;
+}
+.facilities:after{
+    content:'';
+    display:block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(20,143,119, .6);
+}
+.facilities article{
+    column-count: 2;
+    color: #fff; 
+    z-index:1 ;
+    padding: 30px 30px;
+}
+article h4{
+    padding-bottom: 5px;
+    padding-right: 50px;
+}
+.documentation{
+    height: 63vh; 
+    background-image: url(banner.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: top;
+ }
+ .documentation:after{
+     content:'';
+     display:block;
+     position: absolute;
+     top: 0;
+     left:0;
+     right:0;
+     bottom:0;
+     background-color: rgba(20,143,119, .6);
+ }
+ .documentation article{
+    column-count: 3;
+    color: #fff; 
+    z-index:1 ;
+    padding: 30px 30px;
+ }
+.documentation article h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+}
+.contact{
+    height: 63vh; 
+    background-image: url(banner.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: top;
+ }
+ .contact:after{
+     content:'';
+     display:block;
+     position: absolute;
+     top: 0;
+     left:0;
+     right:0;
+     bottom:0;
+     background-color: rgba(20,143,119, .6);
+ }
+ .contact article{
+    color: #fff; 
+    z-index:1 ;
+    padding: 30px 30px;
+ }
+.contact article p{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 7px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+article ul li{
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
